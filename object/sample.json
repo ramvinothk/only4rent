@@ -1,0 +1,36 @@
+[{
+  "deviceId": 368591453484259,
+  "time": "10-18-2015 2:00 PM" ,
+  "activity": "Programmed Device",
+  "log": "Log History",
+  "simNo":90785643212345987605
+ },
+ {
+   "deviceId": 368591453484260,
+   "time": "10-15-2015 3:00 PM" ,
+   "activity": "Activated Device",
+   "log": "Log History",
+   "simNo":10254789654123014785
+ },
+ {
+   "deviceId": 368591412484259,
+   "time": "10-12-2015 11:00 AM" ,
+   "activity": "Activated Device",
+   "log": "Log History",
+   "simNo":65498732589641236987
+ },
+ {
+   "deviceId": 368591789484259,
+   "time": "10-11-2015 10:00 PM" ,
+   "activity": "Suspended Account",
+   "log": "Log History",
+   "simNo":25896314789654123012
+ },
+ {
+   "deviceId": 368591453484400,
+   "time": "10-09-2015 8:00 PM" ,
+   "activity": "SIM Swapped",
+   "log": "Log History",
+   "simNo":85201479654102587963
+ }
+]

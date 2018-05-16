@@ -1,0 +1,337 @@
+.font-gray{
+    color: #9d9d9d;
+}
+.font-skyb{
+    color: deepskyblue;
+}
+.font-bk{
+    color: #000000;
+}
+.bg-bk{
+    background: #000000;
+}
+
+
+/*Nav bar*********************************************************************************/
+.nav-cos{
+    margin: 0;
+   padding-top:8px;
+    padding-right: 30px;
+}
+.nav-cos i{
+    width: 25px;
+    font-size: 20px;
+  color: darkgray;
+}
+.nav-cos i:hover{
+    color: #000000;
+
+}
+.search{
+    padding-top: 7px;
+
+    padding-left: 60px;
+}
+.border {
+    border-radius: 25px;
+}
+.search input{
+    border-left: 0;
+}
+.search button{
+    border-left: 0;
+}
+.user{
+    position: relative;
+    bottom:30px;
+}
+.btn1{
+    border:0px;
+
+}
+.btn2{
+    border:0px;
+    border-right: 1px solid #c4cac6;
+    border-left: 1px solid #c4cac6;
+    border-radius: 0;
+    width: 40px;
+}
+.btn3{
+    border-right: 0;
+}
+/**********************************************************/
+
+.black{
+
+    position: fixed;
+    top: 50px;
+    color: #ffffff;
+    padding: 0;
+    height:750px;
+    width: 80px;
+
+}
+.list-left{
+
+    color: #c9c9c9;
+    border: 0;
+    padding-top: 25px;
+}
+.list-left i{
+    padding-left: 11px;
+    font-size: 30px;
+}
+.list-left:hover{
+    color:#ffffff;
+}
+.list-left:focus{
+    color:#ffffff;
+}
+.active1{
+    color:#ffffff;
+}
+.list-left h4{
+    font-size: 8px;
+    font-weight: bold;
+    opacity: .7;
+    margin-top:6px ;
+}
+
+.list-left span{
+    background-color: #000000;
+    color: lightgray;
+    border: 0;
+   width: 10px;
+}
+.detail{
+    padding-top: 60px;
+    margin-left: 80px;
+    position: fixed;
+    border-right: 1px solid #d6d6d6;
+    height: 750px;
+}
+.detail button{
+    border: 0;
+}
+.detail2{
+    padding-top: 30px;
+    padding-left: 35px;
+}
+.detail2 input{
+    border: 0;
+    font-weight: bold;
+}
+.detail2 p{
+    padding-top:10px;
+}
+.dp{
+    border: 1px solid #c0c0c0;
+}
+/***********************************************************************/
+.main-body{
+    margin-top: 60px;
+    margin-left:410px;
+}
+.main-body h4{
+padding-top: 15px;
+}
+.body-detail{
+    padding-top: 10px;
+    /*margin-right: 10px;*/
+}
+.body-detail span{
+font-size: 16px;
+}
+.body-detail p{
+    font-size: 26px;
+    font-weight: 100;
+    padding-right: 10px;
+    position: relative;
+    bottom: 12px;
+
+}
+.div1{
+    padding:20px;
+    padding-top: 10px;
+}
+.div-body1{
+    font-size: 15px;
+    /*padding: 0;*/
+}
+.div-body2{
+    font-size: 10px;
+    padding: 0;
+    position: relative;
+    bottom: 10px;
+}
+.body-detail2{
+    margin-top:10px;
+}
+.body-detail3 h3{
+    padding-bottom: 0;
+    margin-top: 0;
+    font-size: 20px;
+}
+.body-detail3 p{
+    font-size: 15px;
+    padding: 0;
+}
+.body-detail3 button{
+    font-size: 10px;
+    border:0;
+    margin-left: 5px;
+   margin-top:5px ;
+    background-color: #daffff;
+
+}
+.body-detail3 a{
+    padding-right: 20px;
+    font-size: 12px;
+
+}
+.body3{
+    padding-top: 20px;
+}
+.body-detail21{
+    margin-top:35px;
+    padding-bottom: 10px;
+}
+.div-body11{
+    font-size: 15px;
+    /*padding: 0;*/
+}
+.div-body21{
+    font-size: 10px;
+    padding: 0;
+
+}
+.bt1{
+    position: relative;
+    bottom: 15px;
+}
+
+.body31{
+    padding: 0;
+}
+.body32 a{
+    padding: 4px;
+}
+.black li:hover{
+    background: #333333;
+
+}
+.black li:focus{
+    background: #f5f5f5;
+}
+
+
+
+/*******************************************************************************************
+
+
+*/
+
+
+
+
+
+
+
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+.list-inline li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-bottom: 10px;
+}
+/*---- Genral classes end -------*/
+/*Change icons size here*/
+.social-icons .fa {
+    font-size: 1.5em;
+}
+/*Change icons circle size and color here*/
+.social-icons .fa {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #FFF;
+    color: rgba(255, 255, 255, 0.8);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.social-icons.icon-circle .fa{
+    border-radius: 50%;
+}
+.social-icons.icon-rounded .fa{
+    border-radius:5px;
+}
+.social-icons.icon-flat .fa{
+    border-radius: 0;
+}
+
+.social-icons .fa:hover, .social-icons .fa:active {
+    color: #FFF;
+    -webkit-box-shadow: 1px 1px 3px #333;
+    -moz-box-shadow: 1px 1px 3px #333;
+    box-shadow: 1px 1px 3px #333;
+}
+.social-icons.icon-zoom .fa:hover, .social-icons.icon-zoom .fa:active {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.social-icons.icon-zoom .fa:hover, .social-icons.icon-zoom .fa:active {
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.social-icons .fa-adn{background-color:#504e54;}
+.social-icons .fa-apple{background-color:#aeb5c5;}
+.social-icons .fa-whatsapp{background-color: #34af23;}
+.social-icons .fa-android{background-color:#A5C63B;}
+.social-icons .fa-bitbucket,.social-icons .fa-bitbucket-square{background-color:#003366;}
+.social-icons .fa-bitcoin,.social-icons .fa-btc{background-color:#F7931A;}
+.social-icons .fa-css3{background-color:#1572B7;}
+.social-icons .fa-dribbble{background-color:#F46899;}
+.social-icons .fa-dropbox{background-color:#018BD3;}
+.social-icons .fa-facebook,.social-icons .fa-facebook-square{background-color:#3C599F;}
+.social-icons .fa-flickr{background-color:#FF0084;}
+.social-icons .fa-foursquare{background-color:#0086BE;}
+.social-icons .fa-github,.social-icons .fa-github-alt,.social-icons .fa-github-square{background-color:#070709;}
+.social-icons .fa-google-plus,.social-icons .fa-google-plus-square{background-color:#CF3D2E;}
+.social-icons .fa-html5{background-color:#E54D26;}
+.social-icons .fa-instagram{background-color:#A1755C;}
+.social-icons .fa-linkedin,.social-icons .fa-linkedin-square{background-color:#0085AE;}
+.social-icons .fa-linux{background-color:#FBC002;color:#333;}
+.social-icons .fa-maxcdn{background-color:#F6AE1C;}
+.social-icons .fa-pagelines{background-color:#241E20;color:#3984EA;}
+.social-icons .fa-pinterest,.social-icons .fa-pinterest-square{background-color:#CC2127;}
+.social-icons .fa-renren{background-color:#025DAC;}
+.social-icons .fa-skype{background-color:#01AEF2;}
+.social-icons .fa-stack-exchange{background-color:#245590;}
+.social-icons .fa-stack-overflow{background-color:#FF7300;}
+.social-icons .fa-trello{background-color:#265A7F;}
+.social-icons .fa-tumblr,.social-icons .fa-tumblr-square{background-color:#314E6C;}
+.social-icons .fa-twitter,.social-icons .fa-twitter-square{background-color:#32CCFE;}
+.social-icons .fa-vimeo-square{background-color:#229ACC;}
+.social-icons .fa-vk{background-color:#375474;}
+.social-icons .fa-weibo{background-color:#D72B2B;}
+.social-icons .fa-windows{background-color:#12B6F3;}
+.social-icons .fa-xing,.social-icons .fa-xing-square{background-color:#00555C;}
+.social-icons .fa-youtube,.social-icons .fa-youtube-play,.social-icons .fa-youtube-square{background-color:#C52F30;}
+.social-icons .fa-rss,.social-icons .fa-rss{background-color:#F7931A;}

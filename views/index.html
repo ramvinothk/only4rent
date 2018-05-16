@@ -1,0 +1,42 @@
+<h3 style="text-align: center;font-weight: bold;">Rent In Chennai</h3>
+<br>
+<div class="row">
+    <div class="col-md-6" style="text-align: center;">
+        <h6 style="display: inline-block;font-weight: bold; ">BHK</h6>
+        <button type="button" class="btn btn-default btn-sm btnc">1 BHK</button>
+        <button type="button" class="btn btn-default btn-sm btnc">2 BHK</button>
+        <button type="button" class="btn btn-default btn-sm btnc">3 BHK</button>
+    </div>
+    <div class="col-md-2" style="text-align: center;padding: 0">
+        <h6 style="display: inline-block;font-weight: bold; ">Rent</h6>
+    </div>
+<dev class="col-md-2" style="text-align: center;">
+    <input id="after" class="form-control" type="number" value="1000" min="1000" max="100000" />
+
+</dev>
+
+</div>
+<script>
+    $('#after').bootstrapNumber();
+
+    $(".btnc").click(function(){
+        $('.btnc').css("background-color",'#f9fbff')
+        $(this).css({
+            'background-color': '#ff4636',
+            'color': 'white',
+        });
+
+    });
+</script>
+
+<style>
+    .btnc:hover{
+        background-color: #ff4636;
+    }
+    .ocCk{
+    "background-color": #ff4636;
+    }
+    .btnc:active{
+        border: none;
+    }
+</style>

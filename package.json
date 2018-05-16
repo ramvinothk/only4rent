@@ -1,0 +1,30 @@
+{
+  "name": "tz-corporate-web",
+  "description": "",
+  "version": "1.0.0",
+  "author": {
+    "name": "Ram",
+    "email": "Ram@reezle.com"
+  },
+  "contributors": [
+    {
+      "name": "",
+      "email": ""
+    }
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "dependencies": {
+    "underscore": "^1.8.3",
+    "async": "1.5.0"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">= 0.10.0"
+  }
+}
+
+
